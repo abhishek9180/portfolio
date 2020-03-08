@@ -46,10 +46,12 @@
   ul.para {
     color: var(--text-color);
     font: normal 500 14px/ 25px var(--roboto);
+    padding: 0 10px !important;
   }
   .site-main h2 > span {
     font: normal bold 30px/ 45px var(--roboto) !important;
     letter-spacing: 5px !important;
+    text-align: center;
   }
 
   .owl-carousel .owl-item img {
@@ -81,6 +83,7 @@
   h3 > span {
     font-size: 18px !important;
     letter-spacing: 2px !important;
+    text-align: center;
   }
 }
 
