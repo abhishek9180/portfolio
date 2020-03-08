@@ -22,17 +22,12 @@ app.use('/api/*', function (req, res, next) {
 
 // static routes
 app.get(['/', '/index.html'], function (req, res) {
-    res.sendFile(path.join(__dirname, './dist', 'index.html'));
+    res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
 // download cv
 app.get('/getCV', function (req, res) {
     // send file
-    // const stream = fs.createReadStream('./downloads/abhishek_cv.pdf');
-    // const stat = fs.statSync('./downloads/abhishek_cv.pdf');
-    // res.setHeader('Content-Type', 'application/pdf')
-    // res.setHeader('Content-Disposition', 'attachment; filename=abhishek_jha.pdf')
-    // stream.pipe(res);
     res.download('./downloads/abhishek_cv.pdf');
 });
 
