@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Abhishek Jha portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel public/*.html",
+    "build": "parcel build public/*.html",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Abhishek",
+    "Jha",
+    "portfolio"
+  ],
+  "author": "Abhishek Jha",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "12.14.1"
+  }
+}

@@ -1,0 +1,101 @@
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 340px) {
+	.header_area .main-menu .navbar,
+	.header_area .main-menu .navbar .navbar-brand,
+	.site-main .subscribe-us-area .subscribe .subscribe-title,
+	.site-main .subscribe-us-area .subscribe .subscribe-title p,
+	h4,
+	.site-main .services-area,
+	.site-main .subscribe-us-area .subscribe {
+		padding: 2%;
+		margin: 0%;
+	}
+
+	.site-main .site-banner .site-title h1 {
+		font-size: 41px;
+	}
+
+	.site-main .subscribe-us-area .subscribe form .input-textbox input {
+		width: 15rem !important;
+	}
+
+	.site-main > .services-area .services {
+		width: 13rem;
+	}
+}
+
+/* if the viewport is equal to 625px or less than that */
+@media only screen and (max-width: 625px) {
+	.card-title {
+		font-size: 1rem;
+	}
+
+	.card-banner > .card-banner-list > .card-banner-list-text > p {
+		font-size: 10px;
+	}
+	.card-banner > .card-banner-list > .card-banner-list-img > img {
+		width: 60px;
+		height: 60px;
+	}
+}
+
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 792px) {
+	.title-text {
+		font-size: 40px;
+		line-height: 65px;
+	}
+	.site-main .site-banner .site-title h1 {
+		font-size: 3.2rem;
+	}
+
+	.site-main .site-banner .site-title h4 {
+		font-size: 1.2rem;
+	}
+	p.para,
+	ul.para {
+		color: var(--text-color);
+		font: normal 500 14px/ 25px var(--roboto);
+		padding: 0 10px !important;
+	}
+	.site-main h2 > span {
+		font: normal bold 30px/ 45px var(--roboto) !important;
+		letter-spacing: 5px !important;
+		text-align: center;
+	}
+
+	.site-main .project-area .button-group button {
+		font: normal 500 18px/40px var(--roboto);
+	}
+
+	.site-main .subscribe-us-area .subscribe form .input-textbox input {
+		width: 20rem;
+		margin: 5%;
+	}
+
+	.modal-body {
+		max-height: 100vh;
+	}
+
+	h3 > span {
+		font-size: 16px;
+	}
+	.sub-header > h3 > span {
+		padding: 7px 30px 15px;
+	}
+}
+
+/* if the viewport is equal to 1910px or less than that */
+@media only screen and (max-width: 1910px) {
+	.header_area .main-menu .navbar {
+		padding: 1rem;
+	}
+
+	.container {
+		max-width: 90%;
+	}
+
+	.site-main .brand-area {
+		padding: 3% 0 0 0;
+	}
+}
