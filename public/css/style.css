@@ -128,18 +128,6 @@
 }
 
 /* work history */
-/* .work-history {
-	background: #e83e8c;
-	background: -webkit-gradient(linear, left top, right bottom, from(#007bff), to(#e83e8c));
-	background: linear-gradient(to bottom right, #007bff, #e83e8c);
-	opacity: 0.6;
-	transition: 0.5s;
-	padding: 15px;
-} */
-
-/* .work-history > div > div h3 {
-	color: #fff;
-} */
 
 .work-history .card-banner {
 	display: grid;
@@ -300,51 +288,6 @@
 	grid-template-columns: repeat(auto-fit, minmax(240px, 250px));
 	grid-gap: 15px;
 }
-/* 
-.site-main .project-area > .project-list .card {
-	background-image: linear-gradient(90deg, #4458dc 0%, #854fee 100%) !important;
-}
-
-.site-main .project-area > .project-list .card > .card-body {
-	border-top: 1px solid rgba(255, 255, 255, 0.3);
-	border-radius: 20px;
-	box-shadow: 2px -2px 2px rgba(255, 255, 255, 0.3);
-	color: #fff;
-}
-
-.site-main .project-area > .project-list .card > .card-body > p {
-	color: var(--light);
-	opacity: 0.9;
-}
-
-.site-main .project-area .button-group button {
-	background: transparent;
-	border: none;
-	font: normal 500 16px/130px var(--roboto);
-	text-transform: uppercase;
-}
-
-.site-main .project-area .button-group button + button {
-	padding-left: 3rem;
-}
-
-.site-main .project-area .grid .our-project > .title {
-	text-align: center;
-}
-
-.site-main .project-area .grid .our-project > .title h4 {
-	font: normal 700 20px/12px var(--roboto);
-}
-
-.site-main .project-area .grid .our-project > .img {
-	border-radius: 0.8rem;
-	border: 1px solid var(--border-color);
-	overflow: hidden;
-}
-
-.site-main .project-area .grid .our-project .img a:hover img {
-	filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
-} */
 
 /* End Project Area */
 
